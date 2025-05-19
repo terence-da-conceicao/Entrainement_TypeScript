@@ -80,3 +80,19 @@ const myMagicienHero: Magician = {
    equipments: [smallMagicalWand],
    magic: 200,
 };
+
+
+
+class UserClass {
+  name: string;
+  age: number;
+  
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  greet() {
+    return `Hello, I'm ${this.name}`;
+  }
+}
